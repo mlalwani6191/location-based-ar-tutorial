@@ -1,0 +1,45 @@
+# Blender MTL File: 'leather_under.blend'
+# Material Count: 4
+
+newmtl Leather_09
+Ns -1.960784
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 0.000000
+d 1.000000
+illum 2
+map_Kd D:\Turbo\Meble\6. Leather Under Armchair\POLTRONA+TREND\Leather_Red_Brown.jpg
+
+newmtl Rubber_-_Black.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.004300 0.004300 0.004300
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\Turbo\Meble\6. Leather Under Armchair\POLTRONA+TREND\Metal_Corrugated_Shiny.jpg
+
+newmtl _1
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.835294 0.756863 0.635294
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\Turbo\Meble\6. Leather Under Armchair\POLTRONA+TREND\_1.jpg
+
+newmtl tecido_b
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.698039 0.698039 0.698039
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
