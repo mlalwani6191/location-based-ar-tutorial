@@ -5,8 +5,9 @@
   <a-scene embedded arjs="sourceType: webcam;">
       <a-marker-camera type='pattern' url='pattern-Globant_.patt'></a-marker-camera>
         <!-- Adding an OBJ file to an AR Project-->
-        <a-entity
-          collada-model=”url(leather_under.dae)”>
+        <a-entity position="0 0 0" scale="1 1 1"
+            obj-model="obj: url(leather_under.obj); 
+            mtl: url(leather_under.mtl)">
         </a-entity>
               
       </a-marker>
