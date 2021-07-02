@@ -1,0 +1,23 @@
+# Blender MTL File: 'cushion_armchair.blend'
+# Material Count: 2
+
+newmtl Material_4
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.964706 0.474510 0.556863
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\Turbo\Meble\14. Cushion Armchair Slim\Armchair_333\Material_4.jpg
+
+newmtl Rubber_-_Black.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.672968 0.672968 0.672968
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
