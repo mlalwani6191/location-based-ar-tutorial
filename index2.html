@@ -5,14 +5,14 @@
 <body style='margin : 0px; overflow: hidden;'>
   <a-scene embedded arjs='sourceType: webcam;'>
  
-    <a-marker preset="hiro">
+    <a-marker-camera type='pattern' url='pattern-Globant_.patt'></a-marker-camera>
       <!--Adding a glTF 2.0 model to your scene-->
       <a-scene>
   
     <a-asset-item id="chair" src="scene.gltf"></a-asset-item>
     </a-assets>
 
-    <a-entity gltf-model="#chair"></a-entity>
+    <a-entity position="0 0 0" scale="1 1 1" gltf-model="#chair"></a-entity>
       
     </a-marker>
 
