@@ -1,14 +1,12 @@
 <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
 <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
-<script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
-
 
 <body style="margin : 0px; overflow: hidden;">
   <a-scene embedded arjs="sourceType: webcam;">
-      <a-marker preset="hiro">
+      <a-marker-camera type='pattern' url='pattern-Globant_.patt'></a-marker-camera>
         <!-- Adding an OBJ file to an AR Project-->
-        <a-entity
-          fbx-model="src: url(cushion_armchair.fbx);">
+        <a-entity position="0 0 0" scale="1 1 1"
+          collada-model=”url(cushion_armchair.dae)”>
         </a-entity>
               
       </a-marker>
